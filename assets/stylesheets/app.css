@@ -2228,6 +2228,9 @@ ul li {
     align-items: center;
     margin-left: 0;
   }
+  .padding_on_four{
+    padding: 20px !important;
+  }
 }
 @media (max-width: 480px) {
   .Blue_bubble {
@@ -2372,4 +2375,81 @@ ul li {
     align-items: center;
     margin-left: 0;
   }
+  .padding_on_four{
+    padding: 20px !important;
+  }
+}
+
+/* Usama CSS Executive Admin Login Page */
+
+.box-div.over_ride_box {
+  padding: 0px;
+  border: none;
+  border-radius: 5px;
+}
+
+.background {
+  background: #ff9d2b;
+  padding: 15px 0px;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.padding_on_four {
+  padding: 50px;
+}
+
+.text_feild {
+  border-radius: 30px;
+  background: #eeeeee;
+}
+
+.input_feild_backgroundColor:hover {
+  background: #eeeeee;
+  outline: 0;
+  box-shadow: none;
+  border-radius: 0px;
+}
+
+.input_feild_backgroundColor:focus {
+  background: #eeeeee;
+  outline: 0;
+  box-shadow: none;
+  border-radius: 0px;
+}
+
+.input-icon {
+  width: 65px;
+  height: 56px;
+  background-color: #ff9d2b;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input-icon.width{
+  width: 70px;
+}
+.Rectangle {
+  display: flex;
+  border-radius: 30px;
+  height: 56px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.input_feild_backgroundColor {
+  background: #eeeeee;
+}
+
+.forgot-password-mention.forget_text_color {
+  color: #315eff;
+  font-size: 19px;
+}
+
+.exective-input-buttons.login_btn {
+  border-radius: 30px;
+  padding: 30px;
+  background: #ff9d2b;
+  border: none;
+  margin-top: 30px;
 }
