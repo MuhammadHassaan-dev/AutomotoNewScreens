@@ -14,7 +14,7 @@ button {
   height: 54px;
   background-color: #315eff;
   color: white;
-  padding: 18px 35px 18px 35px;
+  padding: 0px 35px 0px 35px;
 }
 .first-heading {
   font-family: Sora;
@@ -64,11 +64,24 @@ h1.automotoH1 {
   line-height: 50px;
   letter-spacing: 0em;
 }
-.font_size_40{
-  font-size: 40px !important;
+
+h3.automotoH3 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0em;
 }
+
 .opacity-70 {
   opacity: 70%;
+}
+
+.opacity-80 {
+  opacity: 80%;
+}
+
+.opacity-90 {
+  opacity: 90%;
 }
 /* Theming end */
 
