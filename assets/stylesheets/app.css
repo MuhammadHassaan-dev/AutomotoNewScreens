@@ -222,7 +222,7 @@ h2 {
 }
 .box-div {
   padding: 70px;
-  width: 600px;
+  width: 750px;
   border: 1px solid #f6f6f6;
 }
 .executive-admin-input {
@@ -1320,6 +1320,178 @@ ul li {
 .margin-top-50 {
   margin-top: 50px;
 }
+/* password Recovery */
+.light-blue-border {
+  border: 1px solid #0099ff;
+}
+.border-none {
+  border: none;
+}
+.margin-bottom-40 {
+  margin-bottom: 40px;
+}
+.font-size-40 {
+  font-size: 40px !important;
+}
+.light-blue-background {
+  background-color: #e0e0e0;
+}
+.recovery-password-div-padding {
+  padding: 80px 0px 100px 0px;
+}
+/* Resources  */
+.top-background-div-resources {
+  height: 350px;
+}
+
+.desktop-left {
+  text-align: left;
+}
+.card-margin-bottom {
+  margin-bottom: 30px;
+}
+.light-grey-background {
+  background-color: #f5f5f5;
+}
+.resources .card:hover {
+  box-shadow: 0px 4px 40px 0px #00000026;
+}
+.width-50 {
+  width: 50%;
+}
+.search-div-border {
+  border-bottom: 1px solid #667085;
+}
+.background-white {
+  background-color: white;
+}
+.no-margin {
+  margin: 0px !important;
+  border-radius: 0px;
+}
+.no-padding {
+  padding: 0px;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.no-margin:hover {
+  background-color: #fff;
+  border-color: #fff;
+  outline: 0;
+  box-shadow: none !important;
+}
+.padding-left-right-50 {
+  padding: 0px 50px;
+}
+.no-margin:active {
+  background-color: #fff;
+  border-color: #fff;
+  outline: 0;
+  box-shadow: none !important;
+}
+.resources-checkbox-row {
+  border: 1px solid #f3f3f3;
+  box-shadow: 0px 1px 50px 0px #0000000d;
+  padding-top: 28px;
+  padding-bottom: 5px;
+  margin-top: 20px;
+  margin-bottom: 34px;
+}
+.form-check {
+  margin-right: 30px;
+}
+.resources-checkbox-row .form-check-label {
+  font-size: 18px;
+  color: #525252;
+}
+.resources-checkbox-row p {
+  color: #525252;
+  font-size: 18px;
+}
+.resources-checkbox {
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 0px !important;
+  margin-right: 12px;
+}
+.resources-checkbox:checked[type="checkbox"] {
+  background-size: 15px;
+  border-color: #00c9ff !important;
+  background-image: url("/assets/images/checkbox-tick.png");
+}
+.resources-checkbox:checked {
+  background-color: #00c9ff !important;
+}
+.card-second-section-resources {
+  padding: 35px 0px;
+}
+.search-input-font {
+  font-size: 18px;
+}
+.resources-card-type {
+  background-color: #00c9ff;
+  border-radius: 30px;
+  padding: 2px 12px;
+  color: white;
+  font-weight: 700;
+}
+.card-type-div {
+  margin: 10px 0px 20px 0px;
+}
+.card-second-section-resources .card-text {
+  color: #3d4250;
+  font-weight: 700;
+}
+.card-second-section-resources .card {
+  background-color: #fafafa;
+  border: none;
+}
+.card-anchor-text {
+  color: #ffb72b;
+  font-weight: 700;
+}
+.card-anchor-text:hover {
+  color: #ffb72b;
+}
+.resources-video {
+  width: 100%;
+  object-fit: cover;
+  width: 100%;
+  height: 258px;
+}
+.resources-video-div {
+  height: 100%;
+}
+.subscribe-input {
+  width: 100% !important;
+  background-color: #f4f4f4;
+}
+.subscribe-input:hover {
+  width: 100% !important;
+  background-color: #f4f4f4;
+}
+.subscribe-input:focus {
+  width: 100% !important;
+  background-color: #f4f4f4;
+}
+.subscribe-input-div {
+  background-color: #f4f4f4;
+  width: 75%;
+  margin-bottom: 0px;
+}
+.resources-subscribe-row {
+  box-shadow: 0px 4px 38px 0px #0000001a;
+  padding: 30px;
+}
+.resources-subscribe-image-div {
+  text-align: end;
+}
+.subscribe-para {
+  font-weight: 400 !important;
+  line-height: 28px !important;
+  color: #3d4250 !important;
+}
 @media only screen and (max-width: 767px) {
   .flex_col_items_center {
     margin-top: 60px;
@@ -1845,6 +2017,9 @@ ul li {
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 1199px) {
+  .not-show-on-mob {
+    display: none;
+  }
   .login-section {
     padding: 30px 20px 10px;
   }
@@ -2228,7 +2403,7 @@ ul li {
     align-items: center;
     margin-left: 0;
   }
-  .padding_on_four{
+  .padding_on_four {
     padding: 20px !important;
   }
 }
@@ -2375,7 +2550,7 @@ ul li {
     align-items: center;
     margin-left: 0;
   }
-  .padding_on_four{
+  .padding_on_four {
     padding: 20px !important;
   }
 }
@@ -2426,7 +2601,7 @@ ul li {
   justify-content: center;
   align-items: center;
 }
-.input-icon.width{
+.input-icon.width {
   width: 70px;
 }
 .Rectangle {
