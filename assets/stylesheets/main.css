@@ -73,6 +73,9 @@ h3.automotoH3 {
   line-height: 50px;
   letter-spacing: 0em;
 }
+.font_size_40 {
+  font-size: 40px !important;
+}
 
 .opacity-70 {
   opacity: 70%;
