@@ -580,7 +580,7 @@ h2 {
   background-position: center center;
 }
 .image-section-padding-product {
-  padding: 100px 0px 0px 0px;
+  padding: 100px 0px 100px 0px;
 }
 .image-section-text {
   font-family: Inter;
@@ -1492,7 +1492,61 @@ ul li {
   line-height: 28px !important;
   color: #3d4250 !important;
 }
+.subscribe-section-padding {
+  padding-bottom: 80px;
+}
+.padding-top-0px {
+  padding-top: 0px !important;
+}
+.resources-select select {
+  border: none;
+  color: #525252 !important;
+}
+.load-more:hover .fa-arrow-right {
+  transform: translate(-130px, 0) !important;
+}
+
+.load-more {
+  font-size: 22px;
+}
+.resources-subscribe-model .btn-close {
+  position: absolute;
+  right: -18px;
+  top: -21px;
+  border: 2px solid black;
+  border-radius: 50%;
+  background-color: white;
+  opacity: 100%;
+  background-image: url("/assets/images/modelCloseIcon.png");
+}
+.resources-subscribe-model .modal-content {
+  border-radius: 0px;
+}
+.fw-500 {
+  font-weight: 500;
+}
+.resources-subscribe-model .modal-body {
+  padding: 50px 25px;
+}
+.resources-subscribe-model img {
+  width: 200px;
+}
+.resources a {
+  cursor: pointer;
+  color: #3d4250;
+}
+.resources a:hover {
+  color: #3d4250;
+}
 @media only screen and (max-width: 767px) {
+  .background-image-div-contact-us {
+    width: 100%;
+  }
+  .reource-row-wrapper .padding-left-right-50 {
+    padding: 0px 20px;
+    padding-top: 28px;
+    padding-bottom: 5px;
+  }
   .flex_col_items_center {
     margin-top: 60px;
   }
@@ -2009,6 +2063,9 @@ ul li {
   }
 }
 @media only screen and (min-width: 1200px) {
+  .resources-select {
+    display: none;
+  }
   .order-2-product {
     order: 2;
   }
@@ -2017,6 +2074,22 @@ ul li {
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 1199px) {
+  .load-more:hover .fa-arrow-right {
+    transform: none !important;
+  }
+  .light-grey-background .load-more {
+    margin-bottom: 30px;
+  }
+  .show-on-desktop {
+    display: none !important;
+  }
+  .resources-subscribe-image-div {
+    text-align: center;
+    margin-top: 50px;
+  }
+  .subscribe-input-div {
+    width: 100%;
+  }
   .not-show-on-mob {
     display: none;
   }

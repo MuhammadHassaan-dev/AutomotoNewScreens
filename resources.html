@@ -168,7 +168,7 @@
                       <div class="card-body">
                         <p class="card-text">Lorem ipsum dolor sit amet,co
                           sectetur adipiscing elit.</p>
-                        <p class="card-text">Lorem ipsum</p>
+                        <a class="card-text">Lorem ipsum</a>
                       </div>
                     </div>
                   </div>
@@ -178,7 +178,7 @@
                       <div class="card-body">
                         <p class="card-text">Lorem ipsum dolor sit amet,co
                           sectetur adipiscing elit.</p>
-                        <p class="card-text">Lorem ipsum</p>
+                        <a class="card-text">Lorem ipsum</a>
                       </div>
                     </div>
                   </div>
@@ -188,7 +188,7 @@
                       <div class="card-body">
                         <p class="card-text">Lorem ipsum dolor sit amet,co
                           sectetur adipiscing elit.</p>
-                        <p class="card-text">Lorem ipsum</p>
+                        <a class="card-text">Lorem ipsum</a>
                       </div>
                     </div>
                   </div>
@@ -198,7 +198,7 @@
                       <div class="card-body">
                         <p class="card-text">Lorem ipsum dolor sit amet,co
                           sectetur adipiscing elit.</p>
-                        <p class="card-text">Lorem ipsum</p>
+                        <a class="card-text">Lorem ipsum</a>
                       </div>
                     </div>
                   </div>
@@ -208,7 +208,7 @@
                       <div class="card-body">
                         <p class="card-text">Lorem ipsum dolor sit amet,co
                           sectetur adipiscing elit.</p>
-                        <p class="card-text">Lorem ipsum</p>
+                        <a class="card-text">Lorem ipsum</a>
                       </div>
                     </div>
                   </div>
@@ -218,13 +218,13 @@
                       <div class="card-body">
                         <p class="card-text">Lorem ipsum dolor sit amet,co
                           sectetur adipiscing elit.</p>
-                        <p class="card-text">Lorem ipsum</p>
+                        <a class="card-text">Lorem ipsum</a>
                       </div>
                     </div>
                   </div>
                   <div class="col-xs-12 margin-top-30 column-flex-center">
                     <button
-                    class="d-flex justify-content-center align-items-center login-screen-btns admin_btn btn-animate margin-top-30"
+                    class="d-flex justify-content-center align-items-center load-more login-screen-btns admin_btn btn-animate margin-top-30"
                   >
                     <p class="text">Load More</p>
                     <i class="fa-solid fa-arrow-right top-button-icon ps-3"></i>
@@ -254,7 +254,15 @@
                           <div class="d-flex  ">
                             <p>Resource Type :</p>
                           </div>
-                          <div class="d-flex  ">
+                          <div class=" resources-select ">
+                            <select class="form-select form-select-lg mb-3 padding-top-0px" aria-label=".form-select-lg example">
+                              <option selected>Select</option>
+                              <option value="1">One</option>
+                              <option value="2">Two</option>
+                              <option value="3">Three</option>
+                            </select>
+                          </div>
+                          <div class="d-flex show-on-desktop ">
                             <div class="form-check">
                               <input class="form-check-input resources-checkbox no-padding" type="checkbox" value="" id="flexCheckDefault">
                               <label class="form-check-label" for="flexCheckDefault">
@@ -375,7 +383,7 @@
                   </div>
                   <div class="col-xs-12 margin-top-30 column-flex-center">
                     <button
-                    class="d-flex justify-content-center align-items-center login-screen-btns admin_btn btn-animate margin-top-30"
+                    class="d-flex load-more justify-content-center align-items-center login-screen-btns admin_btn btn-animate margin-top-30"
                   >
                     <p class="text">Load More</p>
                     <i class="fa-solid fa-arrow-right top-button-icon ps-3"></i>
@@ -387,10 +395,10 @@
             </div>
            </div>
         </section>
-        <section class="resources-subscribe-section">
+        <section class="resources-subscribe-section ">
           <div class="row">
             <div class="col-xs-12 column-flex-center">
-              <div class="w-80 image-section-padding-product">
+              <div class="w-80 image-section-padding-product padding-top-0px">
                 <div class="row resources-subscribe-row ">
                   <div class="col-xs-12 col-xl-7 column-center">
                       <p class="autmotoPara subscribe-para">
@@ -399,7 +407,6 @@
 
                     <div class="file-btn-div subscribe-input-div">
                       <input
-                      
                         id="file-input"
                         class="upload-file-input subscribe-input"
                         placeholder="you@yourcompany.com"
@@ -408,8 +415,10 @@
                         for="file-input"
                         id="first-upload-btn"
                         class="custom-file-upload "
+                        data-bs-toggle="modal" data-bs-target="#exampleModal"
                       >
                        Subscribe
+                       <i class="fa-solid fa-arrow-right top-button-icon ps-3"></i>
                     </button>
                     </div> 
                   </div>
@@ -423,7 +432,24 @@
               </div> 
             </div> 
         </section>
-      
+        <div class="modal fade resources-subscribe-model" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog position-relative">
+            <div class="modal-content">
+             
+                <button type="button resources-subscribe-model-btn" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+             
+              <div class="modal-body">
+                <div class="text-center" >
+                  <img src="/assets/images/letterWithTick.png" alt="letter with tick"  />
+                </div>
+               
+                <p class="text-center darkGreyColor fw-500">Thank you for opting to stay updated through our blog!</p>
+                <p class="text-center dark-grey-color">Get ready to receive exciting content.</p>
+              </div>
+             
+            </div>
+          </div>
+        </div>
     </main>
     <footer class="footer-section">
       <div class="footer-space-adj">
