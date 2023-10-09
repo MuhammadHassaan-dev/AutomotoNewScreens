@@ -581,7 +581,10 @@ h2 {
   background-position: center center;
 }
 .image-section-padding-product {
-  padding: 100px 0px 100px 0px;
+  padding: 100px 0px 0px 0px;
+}
+.image-section-padding-product.resources-page {
+  padding: 100px 0px 100px 0px !important;
 }
 .image-section-text {
   font-family: Inter;
@@ -613,9 +616,6 @@ h2 {
   line-height: 35px;
   letter-spacing: 0em;
   text-align: left;
-}
-.margin-top-20 {
-  margin-top: 20px;
 }
 .blue-image-section-lower-padding {
   padding: 0px 0px 60px;
@@ -1322,6 +1322,9 @@ ul li {
   margin-top: 50px;
 }
 /* password Recovery */
+.password-recovery-submit:hover {
+  background-color: #3e3efc;
+}
 .light-blue-border {
   border: 1px solid #0099ff;
 }
@@ -1538,6 +1541,160 @@ ul li {
 }
 .resources a:hover {
   color: #3d4250;
+}
+/* Why Us Screen */
+.why-us-heading {
+  line-height: 60px !important;
+  font-size: 37px !important;
+  width: 91%;
+}
+.padding-x-35 {
+  padding: 35px 0px;
+}
+.why-us-first-para {
+  width: 85%;
+}
+.whyUsBackCover {
+  position: absolute;
+  top: -66px;
+  left: 48px;
+  z-index: -1;
+}
+.girl-width-book {
+  box-shadow: 0px 8px 24px 15px #00000040;
+  position: absolute;
+  left: -35px;
+  max-width: 570px;
+  top: 90px;
+}
+.whyus-full-purple {
+  position: absolute;
+  bottom: -539px;
+  left: -76px;
+  z-index: -1;
+}
+.section-padding-whyus {
+  padding: 100px 0px 100px 0px;
+}
+.whyus-second {
+  background: linear-gradient(137.46deg, #ffb72b 0%, #f89f02 100.39%);
+}
+.whyus-sub-heading {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: 0em;
+}
+.section-two-padding-whyus {
+  padding: 100px 0px 0px 0px;
+}
+.flex-end {
+  display: flex;
+  justify-content: end;
+}
+.flex-start {
+  display: flex;
+  justify-content: start;
+}
+.whyus-half-blue-circle {
+  position: absolute;
+  right: -31px;
+  top: 19px;
+}
+.whyus-half-blue-circle-start {
+  position: absolute;
+  left: -31px;
+  top: 19px;
+  transform: rotate(2790deg);
+}
+.why-us .image-containing-div {
+  padding-top: 50px;
+}
+.light-grey-bluish-background {
+  background-color: #f1f6f9;
+}
+.whyus-yellow-btn {
+  background-color: #ffb72b;
+  color: white;
+}
+.whyus-yellow-btn p {
+  margin-bottom: 0px;
+}
+.whyus-bluish-background {
+  background-color: #619cc4;
+}
+.w-h-100 {
+  width: 100%;
+  height: 100%;
+}
+.why-us-first-para-color {
+  color: #636363;
+}
+/* About US */
+.aboutus-first-p-w70 {
+  width: 70%;
+}
+.about-us-dark-blue-bg {
+  background-color: #2853e8;
+}
+.about-us-first-para {
+  color: #525252;
+  line-height: 48px !important;
+  font-size: 24px !important;
+}
+.first-section-padding-whyus {
+  padding: 100px 0px 0px 0px;
+}
+.whyus-center-image {
+  position: absolute;
+  bottom: -17%;
+  right: 13%;
+}
+.aboutus-second-sec-margin-top {
+  margin-top: 11%;
+}
+.aboutus-first-sec-margin-bottom {
+  margin-bottom: 250px;
+}
+.aboutus-grey-background {
+  background-color: #f1f1f1;
+  padding: 30px 50px 30px 30px;
+}
+.aboutus-boxes-para {
+  color: #525252;
+  font-family: Inter;
+  padding: 15px 0px 10px 0px;
+}
+.grey-text-padding-2-aboutus {
+  padding: 5px 0px 10px 0px;
+}
+.margin-left-10 {
+  margin-left: 10px;
+}
+.yellow-border-right {
+  border-left: 10px solid #ffda2b;
+}
+.yellow-small-triangle-aboutus {
+  position: absolute;
+  left: -37px;
+  top: 45%;
+}
+.right-arrow-pointer-about-us {
+  position: absolute;
+  top: 52%;
+  left: -1px;
+}
+.third-pointer-nose-aboutus {
+  top: 50%;
+}
+.whyus-center-image-two {
+  display: none;
+}
+.order-2-aboutus {
+  order: 2;
+}
+.order-1-aboutus {
+  order: 1;
 }
 @media only screen and (max-width: 767px) {
   .background-image-div-contact-us {
@@ -2075,6 +2232,80 @@ ul li {
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 1199px) {
+  .order-1-aboutus-responsive {
+    order: 1;
+  }
+  .order-2-aboutus-responsive {
+    order: 2;
+  }
+  .ceo-image-aboutus {
+    padding-bottom: 80px;
+  }
+  .award-wining-heading {
+    margin-top: 30px;
+  }
+  .section-padding-whyus {
+    padding: 0px;
+  }
+  .aboutus-first-sec-margin-bottom {
+    margin-bottom: 0px;
+  }
+  .whyus-center-image-two {
+    display: block;
+    width: 100%;
+  }
+  .whyus-center-image {
+    display: none;
+  }
+  .yellow-small-triangle-aboutus {
+    display: none;
+  }
+  .yellow-border-right {
+    border: none;
+  }
+  .hird-pointer-nose-aboutus {
+    display: none;
+  }
+  .right-arrow-pointer-about-us {
+    display: none;
+  }
+  .why-us .flex-end {
+    display: flex;
+    justify-content: center !important;
+  }
+  .why-us .flex-start {
+    display: flex;
+    justify-content: center !important;
+  }
+  .whyus-half-blue-circle {
+    display: none;
+  }
+  .load-more {
+    font-size: 16px;
+  }
+  .order-1-on-mobile {
+    order: 1;
+  }
+  .order-2-on-mobile {
+    order: 2;
+  }
+  .whyus-full-purple {
+    display: none;
+  }
+  .whyUsBackCover {
+    display: none;
+  }
+  .girl-width-book {
+    width: 100%;
+    position: static;
+    margin: 35px 0px;
+  }
+  .why-us-first-para {
+    width: 100%;
+  }
+  .why-us-heading {
+    width: 100%;
+  }
   .load-more:hover .fa-arrow-right {
     transform: none !important;
   }
@@ -2285,14 +2516,12 @@ ul li {
     font-size: 16px;
   }
 }
-
 @media only screen and (min-width: 1501px) and (max-width: 1560px) {
   .image_width_XL_screen {
     width: 100%;
     height: 100%;
   }
 }
-
 @media screen and (max-width: 1500px) {
   .Blue_bubble {
     right: 0;
@@ -2684,7 +2913,6 @@ ul li {
     font-size: 30px !important;
   }
 }
-
 @media only screen and (min-width: 320px) and (max-width: 425px) {
   .button_width_on_MOB {
     padding: 0px;
