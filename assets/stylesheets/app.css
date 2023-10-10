@@ -135,6 +135,13 @@ h2 {
   background-position: center;
   background-size: cover;
 }
+
+.background-image-hiring {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .overflow-x-hidden {
   overflow-x: hidden;
 }
@@ -1118,7 +1125,7 @@ ul li {
   padding-top: 30px;
 }
 
-.padding_top_120 {
+.padding_top_bottom_120 {
   padding-top: 120px;
 }
 
@@ -1458,7 +1465,6 @@ ul li {
 .resources-video {
   width: 100%;
   object-fit: cover;
-  width: 100%;
   height: 258px;
 }
 .resources-video-div {
@@ -1940,6 +1946,15 @@ ul li {
     align-items: center;
     margin-left: 0;
   }
+  .width_full_on_medium {
+    width: 100%;
+  }
+  .iframe-container iframe {
+    width: 100% !important;
+  }
+  .padding-20-on-medium-small {
+    padding: 0px 20px;
+  }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .flex_col_items_center {
@@ -2180,6 +2195,9 @@ ul li {
   .blue-small-full-circle {
     display: none;
   }
+  .width_70_to_100 {
+    width: 100% !important;
+  }
   .schedule-btn-product.btn-animate .text {
     transition: none;
     margin: 0;
@@ -2267,6 +2285,25 @@ ul li {
   }
   .highlighted-light-blue-div.background {
     display: none;
+  }
+
+  /* Get your Account Page transition None */
+
+  .Expert-btn .text {
+    transition: none !important;
+    margin: 0;
+  }
+
+  .Expert-btn .fa-arrow-right {
+    transition: none !important;
+  }
+
+  .Expert-btn:hover .text {
+    transform: none !important;
+  }
+
+  .Expert-btn:hover .fa-arrow-right {
+    transform: none !important;
   }
 }
 @media only screen and (min-width: 1700px) and (max-width: 2000px) {
@@ -2517,6 +2554,21 @@ ul li {
   .automotoH1.excutive_admin_h1_font_size {
     font-size: 30px !important;
   }
+  .width_full_on_medium {
+    width: 100%;
+  }
+  .iframe-container iframe {
+    width: 100% !important;
+  }
+  .left-side {
+    left: 10% !important;
+  }
+  .hire-banner {
+    width: 90% !important;
+  }
+  .padding-20-on-medium-small {
+    padding: 0px 20px;
+  }
 }
 @media (max-width: 480px) {
   .Blue_bubble {
@@ -2683,6 +2735,18 @@ ul li {
   .font_size_40 {
     font-size: 30px !important;
   }
+  .width_full_on_medium {
+    width: 100%;
+  }
+  .iframe-container iframe {
+    width: 100% !important;
+  }
+  .hire-banner {
+    width: 90% !important;
+  }
+  .padding-20-on-medium-small {
+    padding: 0px 20px;
+  }
 }
 
 @media only screen and (min-width: 320px) and (max-width: 425px) {
@@ -2698,6 +2762,28 @@ ul li {
   }
   .automotoH1.excutive_admin_h1_font_size {
     font-size: 25px !important;
+  }
+  .width_full_on_medium {
+    width: 100%;
+  }
+  .iframe-container iframe {
+    width: 100% !important;
+  }
+  .second-heading {
+    font-size: 19px !important;
+  }
+  .fourth-heading {
+    font-size: 26px !important;
+  }
+  .last-part-background-image {
+    justify-content: start !important;
+  }
+  .hire-banner {
+    width: 100% !important;
+    justify-content: center;
+  }
+  .autmotoPara {
+    font-size: 14px !important;
   }
 }
 
@@ -2815,6 +2901,10 @@ h3.automotoH3.line_height {
   padding-bottom: 15px;
 }
 
+.padding_top_120 {
+  padding-top: 120px;
+}
+
 .opacity-on-background {
   background-color: rgba(0, 0, 0, 0.3);
 }
@@ -2848,4 +2938,86 @@ button.color_light_grey {
 
 .font_size_40 {
   font-size: 40px;
+}
+
+.background_Color {
+  background: #f5f5f5;
+}
+
+.PTB {
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
+.Get-your-Account-video_div {
+  padding-top: 120px;
+}
+
+.video-div-width {
+  max-width: 850px;
+}
+
+.iframe-container {
+  max-width: 850px;
+  min-height: 480px;
+  margin: auto;
+}
+
+.iframe-container iframe {
+  width: 850px;
+  height: 480px;
+}
+
+.btn-yellow {
+  background-color: #ffb72b;
+}
+
+.card-box-background {
+  background: rgba(83, 80, 80, 0.7);
+  max-width: 418px;
+  min-height: 480px;
+  border-radius: 20px;
+}
+
+.card-main {
+  padding: 45px 29px;
+}
+
+.font_size_24 {
+  font-size: 24px !important;
+}
+
+.padding-top_120 {
+  padding-top: 120px;
+}
+
+.last-part-background-image {
+  display: flex;
+  justify-content: end;
+}
+
+.hire-banner {
+  width: 80%;
+  height: 100%;
+}
+
+.width_70_to_100 {
+  width: 70%;
+}
+
+.Expert-btn .text {
+  transition: all 0.3s ease-in;
+  margin: 0;
+}
+
+.Expert-btn .fa-arrow-right {
+  transition: all 0.3s ease-in;
+}
+
+.Expert-btn:hover .text {
+  transform: translate(40px, 0);
+}
+
+.Expert-btn:hover .fa-arrow-right {
+  transform: translate(-200px, 0);
 }

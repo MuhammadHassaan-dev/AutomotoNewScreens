@@ -39,6 +39,13 @@ button {
   text-align: left;
 }
 
+.fourth-heading {
+  font-family: Sora;
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 48px;
+}
+
 /* Theming css */
 p.autmotoPara {
   font-size: 18px;
@@ -559,6 +566,6 @@ a {
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .footer-section {
-    padding: 60px 80px ;
+    padding: 60px 80px;
   }
 }
